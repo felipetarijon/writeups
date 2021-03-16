@@ -16,7 +16,7 @@ Then I tested with an empty string. It printed: `Please don't be lame, I can't j
 So, now I know it prints things. What if I inject a command into it?  
 With my bash scripting knowledge I tried two things:  
 Tried to inject the command `$(ls)`. It printed: `Hey mate, you seem to be using some characters that makes me wanna throw it back in your face >:(
-`. Very funny tough.  
+`. Very funny though.  
   
 The other thing which allow to execute code is `` ` `` (backtick). Tried `` `ls` ``. It printed: `index.php`. Nice, it worked!!  
 After that I used cat to read the index.php content, which broke the page layout but I could get the content on the source code of the page:  
